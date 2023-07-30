@@ -1,0 +1,9 @@
+You have a football field that is 92 meter long and 48.8 meter wide. Find out total area using python and print it.
+# Given dimensions of the football field
+length = 92  # meters
+width = 48.8  # meters
+# Calculate the total area
+total_area = length * width
+# Print the total area
+print("The total area of the football field is:", total_area, "square meters")
+The total area of the football field is: 4489.6 square meters
