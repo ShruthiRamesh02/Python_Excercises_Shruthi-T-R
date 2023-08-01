@@ -1,0 +1,12 @@
+Print binary representation of number 17
+
+# Number to convert to binary
+number = 17
+
+# Get the binary representation of the number
+binary_representation = bin(number)
+
+# Print the binary representation
+print("Binary representation of", number, "is:", binary_representation)
+
+Binary representation of 17 is: 0b10001
