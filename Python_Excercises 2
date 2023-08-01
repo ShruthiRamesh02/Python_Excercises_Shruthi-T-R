@@ -1,0 +1,16 @@
+You want to replace tiles in your bathroom which is exactly square and 5.5 feet is its length. If tiles cost 500 rs per square feet, how much will be the total cost to replace all tiles. Calculate and print the cost using python (Hint: Use power operator ** to find area of a square)
+
+# Given length of the square bathroom in feet
+length_of_bathroom_in_feet = 5.5
+
+# Given cost of tiles per square foot in rs
+cost_per_square_foot = 500
+
+# Calculate the area of the square bathroom in square feet
+area_of_bathroom_in_square_feet = length_of_bathroom_in_feet ** 2
+
+# Calculate the total cost to replace all tiles
+total_cost = area_of_bathroom_in_square_feet * cost_per_square_foot
+
+# Print the total cost
+print("The total cost to replace all tiles is:", total_cost, "rs")
