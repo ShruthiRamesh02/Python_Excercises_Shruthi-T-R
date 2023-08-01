@@ -1,0 +1,33 @@
+1. Create a variable called break and assign it a value 5. See what happens and find out the reason behind the behavior that you see
+
+# Trying to create a variable named 'break'
+break = 5
+
+2. Create two variables. One to store your birth year and another one to store current year. Now calculate your age using these two variables
+
+# Variables to store birth year and current year
+birth_year = 1990
+current_year = 2023
+
+# Calculate age
+age = current_year - birth_year
+
+# Print the age
+print("Your age is:", age)
+
+3.Store your first, middle and last name in three different variables and then print your full name using these variables
+first_name="shruthi"
+middle name="tatanahalli"
+last name="rameshan"
+full name=first name " "+middle name" "+last name" "
+print("my full name is" full name)
+
+4. Answer which of these are invalid variable names: "_nation, 1record, record1, record_one, record-one, record^one, continue"
+Invalid variable names: "1record, record-one, record^one, continue"
+
+In Python, variable names must follow certain rules:
+
+They cannot start with a digit (e.g., 1record is invalid).
+They cannot contain special characters other than underscores (e.g., record-one, record^one are invalid).
+They cannot be the same as reserved keywords in Python (e.g., continue is a reserved keyword and cannot be used as a variable name).
+Valid variable names: "_nation, record1, record_one"
