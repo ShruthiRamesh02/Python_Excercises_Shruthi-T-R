@@ -1,0 +1,11 @@
+Create a variable called break and assign it a value 5. See what happens and find out the reason behind the behavior that you see.
+break = 5
+SyntaxError: 'break' is a keyword and cannot be used as an identifier
+break_var = 5
+
+Create two variables. One to store your birth year and another one to store current year. Now calculate your age using these two variables
+# Store birth year and current year
+birth_year = 1990
+current_year = 2023
+age = (current_year - birth_year)
+print("Your age is:", age)
